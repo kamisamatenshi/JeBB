@@ -160,8 +160,8 @@ if __name__ == "__main__":
         
 global client
 client = Client(
-    channelAccessToken = "", 
-    channelSecret = "",
+    channelAccessToken = "v2IxFwdSFEAhyqC9qbQ5RXGIQUyrtIxjIuwdbhouz8Lq4DIFTm0mTXWzya9Tr4cjeEEnXy32cinXnFkuBn1fJA5bpvqds3rFiU1DY/zO2RZ4PgJX7841bQ5j/yly5LeMU2DXZ/npz4VsbtbiDRgFiQdB04t89/1O/w1cDnyilFU=", 
+    channelSecret = "d68b17fa1652af604c7a728cd12751b9",
     #email = "",
     #password = "",
     authToken = None, 
@@ -169,7 +169,7 @@ client = Client(
     tries = 5, 
     reauthDelay = 7200, 
     adminIds = [], 
-    adminMids = [], 
+    adminMids = ["U1afa490979eb023cf3ed0db8c233f61e"], 
     dbUrl = '', 
     handler = HandleEvent,
     isMac = False,
