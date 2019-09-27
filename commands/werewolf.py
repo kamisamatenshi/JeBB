@@ -35,6 +35,7 @@ class ActionPhase:
     firstNight=7
     anyday=8
     
+    
 class Role(object):
     none=None
     villager=None
